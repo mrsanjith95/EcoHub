@@ -35,11 +35,13 @@ export default function LandingPage() {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '6rem', overflow: 'hidden' }}>
       {/* SECTION 1 — HERO */}
-      <section style={{ position: 'relative', textAlign: 'center', padding: '4.5rem 1rem 3rem' }}>
+      <section style={{ position: 'relative', textAlign: 'center', padding: '2rem 1rem 3rem' }}>
         {/* Subtle Ambient Glow Effect */}
         <div
           className="ambient-glow-circle"
           style={{
+            position: 'absolute',
+            pointerEvents: 'none',
             width: '500px',
             height: '500px',
             background: 'radial-gradient(circle, rgba(16, 185, 129, 0.15) 0%, rgba(255, 255, 255, 0) 70%)',
